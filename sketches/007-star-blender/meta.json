@@ -1,0 +1,8 @@
+{
+  "title": "007 Star Blender",
+  "year": 2026,
+  "tags": ["empty", "starter"],
+  "snapshotFrame": 1,
+  "snapshotTimeoutMs": 12000,
+  "p5Version": "1.11.1"
+}

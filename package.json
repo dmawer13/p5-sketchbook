@@ -1,0 +1,16 @@
+{
+  "name": "p5-sketchbook",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Personal p5.js sketch archive with automated previews and visual gallery",
+  "scripts": {
+    "dev": "node tools/dev-server.mjs",
+    "manifest": "node tools/build-gallery-manifest.mjs",
+    "rename:grid": "node tools/rename-grid-images.mjs",
+    "snapshots": "node tools/snapshot-sketches.mjs",
+    "snapshots:one": "node tools/snapshot-sketches.mjs --sketch"
+  },
+  "devDependencies": {
+    "playwright": "^1.54.2"
+  }
+}

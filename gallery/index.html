@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>p5 Sketch Gallery</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <header class="masthead">
+        <h1>sketch index</h1>
+        <div class="status-block">
+          <p id="status">Loading...</p>
+          <p class="hint">Arrows: 1 step | Shift+Arrows: 5 | PgUp/PgDn: 10 | Enter: open</p>
+        </div>
+      </header>
+
+      <section class="stage" aria-label="Sketch carousel">
+        <button id="prevBtn" class="nav-btn" aria-label="Previous sketch">prev</button>
+        <div id="carousel" class="carousel"></div>
+        <button id="nextBtn" class="nav-btn" aria-label="Next sketch">next</button>
+      </section>
+
+      <section id="details" class="details"></section>
+
+      <section class="strip-wrap" aria-label="Quick browse strip">
+        <div id="strip" class="strip"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

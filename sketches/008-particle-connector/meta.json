@@ -1,0 +1,8 @@
+{
+  "title": "008 Particle Connector",
+  "year": 2026,
+  "tags": ["particles", "attractors", "ui", "typography"],
+  "snapshotFrame": 45,
+  "snapshotTimeoutMs": 12000,
+  "p5Version": "1.11.1"
+}

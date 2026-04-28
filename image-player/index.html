@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Star Image Player</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <aside class="sidebar">
+        <div class="selector-panel">
+          <canvas id="selectorMap" width="132" height="132"></canvas>
+        </div>
+
+        <button id="autoPlayToggle" class="control toggle-btn" type="button" aria-pressed="false">
+          auto: off
+        </button>
+
+        <label class="control range">
+          <span>spd</span>
+          <input id="speedInput" type="range" min="1" max="30" value="12" />
+        </label>
+
+        <div class="control frame-box" id="currentFrame">--</div>
+
+        <section class="status-bar">
+          <p id="status">idle</p>
+        </section>
+
+        <label class="picker picker-bottom">
+          <span>load files</span>
+          <input id="folderInput" type="file" webkitdirectory directory multiple accept="image/*" />
+        </label>
+      </aside>
+
+      <section class="viewport">
+        <canvas id="viewer"></canvas>
+      </section>
+    </main>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

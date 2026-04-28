@@ -1,0 +1,129 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+canvas {
+  display: block;
+}
+
+/* Put the canvas where we want it */
+.canvas-pos {
+  position: absolute;
+  left: 220px; /* canvas moves right */
+  top: 0px;
+}
+
+/* Scrollable menu on the left */
+.menu {
+  position: absolute;
+  left: 0px; /* menu stays on the far left */
+  top: 0px;
+
+  width: 240px;
+  height: 600px; /*  same as the p5 canvas height.*/
+
+  overflow-y: auto;
+  /*   border: 1px solid #000; */
+  background: #f5f5f5;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Blei";
+  src: url("Blei-TrialVF.ttf");
+  font-weight: 300 700; /* Defines the supported weight range */
+}
+
+.menu-item {
+  font-size: 10px;
+}
+
+.menu-text {
+  color: black;
+  font-size: 24px;
+  font-family: "Blei";
+  font-feature-settings: "ss01";
+  font-variation-settings: "wdth" 225;
+}
+
+.ui-block {
+  width: 100%;
+  /*   height: 60px; no height = inherit stacked Divs */
+  margin-bottom: 0px;
+  border: 1px solid #000;
+  background: #ffffff;
+  box-sizing: border-box;
+  padding: 6px;
+  padding-right: 12px;
+  position: relative;
+}
+
+.ui-block .ui-checkbox {
+  font-family: "Blei";
+  font-size: 16px;
+/*   font-feature-settings: "ss01"; */
+  font-variation-settings: "wdth" 225;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  margin: 0;
+}
+
+.ui-block .ui-radio {
+  font-family: "Blei";
+  font-size: 16px;
+/*   font-feature-settings: "ss01"; */
+  font-variation-settings: "wdth" 225;
+/*   position: absolute; */
+/*   top: 8px; */
+/*   right: 12px; */
+/*   margin: 0; */
+}
+
+
+
+.ui-block .collapsible {
+  padding-right: 44px !important; /* gives the checkbox room */
+}
+
+.menu-check {
+  display: block; /* stack nicely */
+  padding: 6px;
+  border-top: 1px solid #000; /* optional: makes list feel deliberate */
+  font-family: "Blei";
+  font-size: 16px;
+  font-variation-settings: "wdth" 225;
+}
+
+.perlin-block {
+  width: 100%;
+  margin-bottom: 0px;
+  box-sizing: border-box;
+  /*   padding: 6px; */
+  font-family: "Blei";
+  /*   font-size: 24px; */
+  font-feature-settings: "ss01" 1;
+  font-variation-settings: "wdth" 225;
+}
+
+.toggle-switch {
+  position: absolute;
+  /*   padding-right: 20px; */
+}
+
+/* button */
+.collapsible {
+  font-family: "Blei";
+  background: none;
+  /*   font-size: 20px; */
+  font-feature-settings: "ss01" 1;
+  font-variation-settings: "wdth" 225;
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  appearance: none !important;
+  padding: 0 !important;
+}
