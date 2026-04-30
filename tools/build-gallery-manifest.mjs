@@ -58,8 +58,8 @@ for (const dirent of dirents) {
     title: meta.title || slug,
     year: meta.year || null,
     tags: Array.isArray(meta.tags) ? meta.tags : [],
-    sketchUrl: `/sketches/${slug}/index.html`,
-    previewUrl: hasPreview ? `/previews/${previewFile}` : null,
+    sketchUrl: `../sketches/${slug}/index.html`,
+    previewUrl: hasPreview ? `../previews/${previewFile}` : null,
     p5Version: meta.p5Version || null,
     snapshotFrame: Number.isFinite(meta.snapshotFrame) ? meta.snapshotFrame : null
   });

@@ -1,0 +1,8 @@
+{
+  "title": "009 Thermal Column Day",
+  "year": 2026,
+  "tags": ["data", "temperature", "depth", "heatmap", "csv"],
+  "snapshotFrame": 1,
+  "snapshotTimeoutMs": 12000,
+  "p5Version": "1.11.1"
+}

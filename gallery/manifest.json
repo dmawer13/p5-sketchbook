@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-04-18T20:09:28.177Z",
-  "count": 2,
+  "generatedAt": "2026-04-30T02:01:06.582Z",
+  "count": 3,
   "sketches": [
     {
       "slug": "007-star-blender",
@@ -10,8 +10,8 @@
         "empty",
         "starter"
       ],
-      "sketchUrl": "/sketches/007-star-blender/index.html",
-      "previewUrl": "/previews/007-star-blender.png",
+      "sketchUrl": "../sketches/007-star-blender/index.html",
+      "previewUrl": "../previews/007-star-blender.png",
       "p5Version": "1.11.1",
       "snapshotFrame": 1
     },
@@ -25,10 +25,26 @@
         "ui",
         "typography"
       ],
-      "sketchUrl": "/sketches/008-particle-connector/index.html",
-      "previewUrl": "/previews/008-particle-connector.png",
+      "sketchUrl": "../sketches/008-particle-connector/index.html",
+      "previewUrl": "../previews/008-particle-connector.png",
       "p5Version": "1.11.1",
       "snapshotFrame": 45
+    },
+    {
+      "slug": "009-thermal-column-day",
+      "title": "009 Thermal Column Day",
+      "year": 2026,
+      "tags": [
+        "data",
+        "temperature",
+        "depth",
+        "heatmap",
+        "csv"
+      ],
+      "sketchUrl": "../sketches/009-thermal-column-day/index.html",
+      "previewUrl": "../previews/009-thermal-column-day.png",
+      "p5Version": "1.11.1",
+      "snapshotFrame": 1
     }
   ]
 }

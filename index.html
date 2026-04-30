@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>p5 Sketchbook</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #ece6da;
+        --panel: rgba(255, 251, 244, 0.92);
+        --border: rgba(17, 17, 17, 0.08);
+        --text: #111111;
+        --muted: #5f5a54;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        min-height: 100%;
+        background:
+          radial-gradient(circle at top left, rgba(255,255,255,0.46), transparent 28%),
+          linear-gradient(145deg, #d8d2c4, #f2ede4 58%, #d9d3c6);
+        color: var(--text);
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      }
+
+      body {
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        padding: 24px;
+      }
+
+      main {
+        width: min(100%, 760px);
+        padding: 32px;
+        border-radius: 28px;
+        background: var(--panel);
+        border: 1px solid var(--border);
+        box-shadow: 0 24px 70px rgba(23, 19, 14, 0.14);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 5vw, 3.4rem);
+        line-height: 0.98;
+        letter-spacing: -0.04em;
+      }
+
+      p {
+        margin: 0 0 22px;
+        font-size: 1rem;
+        line-height: 1.5;
+        color: var(--muted);
+      }
+
+      .links {
+        display: grid;
+        gap: 14px;
+      }
+
+      a {
+        display: block;
+        padding: 16px 18px;
+        border-radius: 18px;
+        background: rgba(17, 17, 17, 0.05);
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 600;
+      }
+
+      a small {
+        display: block;
+        margin-top: 4px;
+        font-weight: 500;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>p5 Sketchbook</h1>
+      <p>Static GitHub Pages entry point for the gallery and the Lake Erie temperature controller sketch.</p>
+      <div class="links">
+        <a href="./sketches/009-thermal-column-day/index.html">
+          Lake Erie Temperatures
+          <small>Controller and projector-ready sketch</small>
+        </a>
+        <a href="./gallery/">
+          Sketch Gallery
+          <small>Browse all archived sketches and previews</small>
+        </a>
+      </div>
+    </main>
+  </body>
+</html>
